@@ -1,0 +1,146 @@
+\documentclass[12pt, a4paper, sans]{moderncv}
+
+\linespread{1.1}
+
+\usepackage{url}
+
+% colors: black, blue, green, grey, orange & purple
+% styles: banking, casual, classic & oldstyle
+\moderncvtheme[blue]{banking}
+
+% character encoding
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{datetime}
+
+\newcommand{\revision}{\twodigit\day\twodigit\month\the\year}
+\renewcommand*{\namefont}{\fontsize{34}{38}\mdseries\upshape}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyfoot[RE, RO]{\footnotesize{rev. \revision}}
+
+% adjust the page margins
+\usepackage[scale=.85]{geometry}
+\setlength{\hintscolumnwidth}{3cm}
+\AtBeginDocument{\recomputelengths}
+
+% personal data
+\firstname{Welington}
+\familyname{Veiga}
+
+\phone[mobile]{\texttt{+55 32 98847-7526}}
+%\homepage{http://agonzalezro.github.io}
+\email{welington.veiga@gmail.com}
+
+\social[github]{welingtonveiga}
+\social[twitter]{welingtonveiga}
+\social[linkedin]{welingtonveiga}
+
+\begin{document}
+\makecvtitle
+
+
+%
+% PROFESSIONAL EXPERIENCE
+%
+\subsection{Professional Experience}
+\cventry{Feb/2014 -- Present}
+{IT Team Coordinator}
+{Affero Lab}{Juiz de Fora (MG)}{}
+{
+- Liderança técnica e coordenação de times ágeis de desenvolvimento, trabalhando para manutenção de um ambiente dinâmico, criativo, aberto e ao mesmo tempo altamente produtivo, com entregas frequentes, foco em qualidade e excelência técnica.\newline{}
+- Participação em projetos com uso de plataformas como J2EE, stack Spring, NodeJS, com bancos de dados relacionais (MySQL, SQL Server, PostgreSQL) e não relacionais (AWS DynamoDB, Redis), serviços de fila (RabbitMQ), integrações (Apache Camel), mecanismos de cache (Memcached, EhCache, Infinispan), ferramentas para deploy automatizado, integração contínua, testes automatizados (unitários e de integração).\newline{}
+- Uso de soluções de computação em nuvem para infraestrutura das aplicações, com foco em escalabilidade horizontal e alta disponibilidade.\newline{}
+- Coach técnico dos colaboradores com sugestões de literatura, conteúdos na web e acompanhamento de sua evolução.}
+
+\cventry{Fevereiro/2013 -- Janeiro/2014}
+{Analista de Sistemas Sênior}
+{Affero Lab}{Juiz de Fora (MG)}{}
+{- Migração de sistema legado para ambiente clusterizado usando infraestrutura da Amazon (AWS).\\
+- Desenvolvimento ágil utilizando o framework Scrum, atuando como Scrum Master.\\
+- Especificação e desenvolvimento de integrações entre sistemas de diferentes fornecedores.\\
+- Interação constante com equipes de atendimento, comercial, projetos e cliente.}
+
+\cventry{Abril/2012 -- Janeiro/2013}
+{Analista de Sistemas Pleno}
+{Affero Lab}{Juiz de Fora (MG)}{}
+{- Evolução e manutenção de aplicações J2EE utilizando Struts e Hibernate em software de avaliação e desenvolvimento de recursos humanos em cenários de alta carga, aplicando metodologias ágeis, TDD com JUnit, Mockito, PowerMockito, Selenium e testes de carga.}
+
+\cventry{Junho/2011 -- Maio/2012}
+{Analista de Sistemas}
+{Projetus TI}{Juiz de Fora (MG)}{}
+{- Manutenção e desenvolvimento de sistemas em Java (Maven, Spring, JasperReports, Hibernate, EclipseLink/JPA, Tomcat, PostgreSQL, Adobe Flex ) na área Contábil, atuando na adequação do sistema às constantes atualizações na legislação.}
+
+\cventry{Maio/2009 -- Fevereiro/2011}
+{Programador Júnior}
+{Aprimorar Desenvolvimento}{Juiz de Fora (MG)}{}
+{- Desenvolvimento de um sistema de comunicação voltado para produtividade em PHP utilizando o Framework Symfony e o ORM Doctrine sobre o SGBD MySql. Desenvolvimento de interfaces web ricas com uso intenso de JavaScript. Participação na análise de requisitos, especificação e modelagem dos projetos.\newline{}
+\newline{}
+\newline{}
+\newline{}
+\newline{}}
+
+
+%
+% EDUCATION
+%
+\subsection{Formação acadêmica}
+\cventry{2014--2016}
+{Mestrado em Ciência da Computação - Engenharia de Software}{Universidade Federal de Juiz de Fora -- UFJF}{}{}{}
+
+\cventry{2008--2012}
+{Bacharelado em Ciência da Computação}{Universidade Federal de Juiz de Fora -- UFJF}{}{}{\textbf{Atividades:} 
+\\
+- Bolsista de Iniciação Científica CNPQ no FISIOCOMP - Laboratório de Fisiologia Computacional de Alto Desempenho
+\\
+- Bolsista em Iniciação Científica Simulação Computacional de
+Gerência de Projetos.}
+
+\subsection{Certificações}
+
+\cventry{2013--2017}
+{Certified ScrumMaster}{Scrum Alliance, Inc}{}{}{}
+
+
+\subsection{Palestras, Minucursos e Treinamentos ministrados recentemente}
+\cventry{}
+{}{2016}{
+\\Desenv. Ágil com SCRUM: da teoria a prática - Palestra em turma de Engenharia de Software - UFJF
+\\Desenv. Ágil com SCRUM: da teoria a prática - Palestra em turma de Modelagem de Sistemas - UFJF
+}{}{}
+
+\cventry{}
+{}{2015}{
+\\Desenv. Orientado a Objetos em Java - (Treinamento 4h) Inspirar Digital
+\\O que não te disseram sobre Orientação à Objetos. Jornada Cient./2015 - 2h Instituto Vianna Jr
+\\Por que NodeJS: Desenvolvendo aplicações não bloqueantes - 2h - 2015 Instituto Vianna Jr
+\\AngularJS, tenha um framework super heróico a seu favor! - 4h - Dev. Saturday Google Dev. Group/JF}{}{}
+
+\cventry{}
+{}{2014}{
+\\Desenv. Ágil com SCRUM: da teoria a prática - Semana da Informática - 2h - CES-JF
+\\Desenv. Guiado por Testes – TDD  - XII SEMEX/XVI Jornada Científica -4h - UNIVERSO
+\\Desenv. Ágil com SCRUM: da teoria a prática - XII SEMEX/XVI Jornata Cient. -2h -UNIVERSO
+}{}{}
+
+%
+% LANGUAGES
+%
+
+\subsection{Idiomas}
+\cvdoubleitem{\textbf{Inglês}}{Lê, entende.}{\textbf{Português}}{Nativo}
+
+%
+% MISC
+%
+%\section{Other interesting information}
+%\cvlistitem{Co-organizer of the \url{golang.co.uk} conference. The first Go
+%conference in UK. Also started PyGrunn monthly at the Netherlands and currently
+%co-organizing the Go London User Group meetups.}
+
+%\cvlistitem{Speaker in several biz and tech talks: J2ME talk at
+%XGN, to I+D+i managers at \hyphenation{ADEuropa}ADEuropa,
+%about FLOSS with CENATIC, Django at DJUGL, GTK at Paylogic, Thrift at PyGrunn\ldots}
+
+\end{document}
